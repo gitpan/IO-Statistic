@@ -1,0 +1,12 @@
+name: IO-Statistic
+version: 0.10
+abstract: Transparently perform statistics on IO handles
+author: Chia-liang Kao <clkao@clkao.org>
+license: perl
+distribution_type: module
+requires:
+  PerlIO::via::dynamic: 0
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.35

@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.41.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 881b1c7c03bf0480bee95b2a8d0c68e8c4cd7855 CHANGES
+SHA1 c791223ef5034b3a9f19c76bec093c33e34ce8fe MANIFEST
+SHA1 291e4c3634b696b9f37dd3df4fa98a4ba92bf823 META.yml
+SHA1 c90812285c23502847c3a95df7299cc9c1db3da1 Makefile.PL
+SHA1 f94c53ecbe7e2d5404f817eb70fa0e9d3a92ef69 README
+SHA1 127fb0a41f8433b854676941c699693abc3e85d4 inc/ExtUtils/AutoInstall.pm
+SHA1 02597776ad22aacd2c8e189594fcbf701390b606 inc/Module/Install.pm
+SHA1 53422ed14b41bbc9af3ac14a26ced3ed21dee0bc inc/Module/Install/AutoInstall.pm
+SHA1 7ca8b8f54287c2b5af8062fc9f349275a07e06f3 inc/Module/Install/Base.pm
+SHA1 b6af22816210f8eaab4c2c616e05a8892b2fcfd0 inc/Module/Install/Can.pm
+SHA1 33659c004518e95afb6ffafad41e84f2a6268412 inc/Module/Install/Fetch.pm
+SHA1 b42b4d3a89848325ae29422c72638e1571e7af1b inc/Module/Install/Include.pm
+SHA1 c4ed10cd20914c04f3fff3f8aaf8943372cec114 inc/Module/Install/Makefile.pm
+SHA1 ccf9b6267b5c9e7b35ef129f7e974255955c8867 inc/Module/Install/Metadata.pm
+SHA1 1288f4c4e4ba88e19194d7952eacbd6be2a5b916 inc/Module/Install/Win32.pm
+SHA1 1022a7ab797fc0081ea947f102650362ad925d7a inc/Module/Install/WriteAll.pm
+SHA1 581a86ced5907bfcbb22fecc08f28c400168ea19 lib/IO/Statistic.pm
+SHA1 b6843f72e6971d1fb5b5b8a1797ed704e93d62fb t/0use.t
+SHA1 b6746461dfde6ba9dce5881b4fc860f2008fa384 t/1basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (FreeBSD)
+
+iD8DBQFBO7OVk1XldlEkA5YRAqptAJ40l4deADBhh/pHi83DvUsGHla+BQCdGYi1
+QdKMei450hDcd2MjkyKCiaY=
+=ubra
+-----END PGP SIGNATURE-----
